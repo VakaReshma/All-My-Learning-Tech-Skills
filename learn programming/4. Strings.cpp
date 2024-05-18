@@ -137,7 +137,7 @@
 //         }
 
 //     }
-//     cout<<count;
+//     cout<<str.length()-count;
 // }
 
 
