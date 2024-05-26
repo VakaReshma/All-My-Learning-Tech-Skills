@@ -1,0 +1,27 @@
+// Write a function in C++ that takes a string as input and returns the string reversed.
+
+// Example:
+
+// Input: "hello"
+// Output: "olleh"
+
+#include<iostream>
+using namespace std;
+ string reversestring(string s){
+    int i=0;
+    int j=s.length()-1;
+    while(i<=j){
+        char temp=s[i];
+        s[i]=s[j];
+        s[j]=temp;
+         i++;
+        j--;
+    }
+    return s;
+ }
+int main(){
+    string s;
+    cin>>s;
+    cout<<reversestring(s);
+  
+}
