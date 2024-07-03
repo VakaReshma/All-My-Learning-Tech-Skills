@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>document</title>
+        <style>
+            .container{
+                border: 1px solid black;
+                padding: 10px;
+            }
+            .header{
+                background-color: rgb(216, 237, 237) ;
+                padding: 10px ;
+            }
+            .content{
+                margin-top: 10px;
+            }
+            .footer{
+                background-color: rgb(193, 232, 232);
+                padding: 10px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <form mathod="get" action ="/login">
+            <lable >Email:</lable>
+            <input type="email" name="email"><br><br>
+            <lable for="password">Password:</lable>
+            <input type="password" name="password"><br><br>
+           
+
+            <label for="Gender">Gender:</label>
+            <input type="radio" name="Gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" name="Gender" value="female">
+            <label for="female">Female</label>
+            <input type="submit" value="submit">
+            <button type="button">Click here</button>
+            <br>
+            <br>
+
+            <!-- differance in the output is 
+                 :cat 
+                 we cant identifie what is cat-->
+
+            <label for="pets">Pets</label>
+            <select id="Pets">
+                <option value="Dog">Dog</option>
+                <option value="cat">Cat</option>
+            </select>
+
+              <!-- this form will give like backend understanding 
+              "fruits": "mango"
+                   like understanding in backend -->
+                   
+            <from action="/submit" method="get">
+                <label for="fruits">Fruits</label>
+                <select id="fruits" name="fruits">
+                    <option value="apple">apple</option>
+                    <option value="mango" selected>mango </option>
+                    <option value="sapota">sapota</option>
+                </select>
+            </from>
+            <h3>symantaic tags:</h3>
+            <pre> two types
+                1.semantic Tags
+                accuraticy describe thier perpose
+                ex: 
+                   
+                2.non semantic tags-general purpose
+                    div
+                    span
+                why semantic tags?
+                    we can not  site more use acessable
+                    example:
+            </pre>
+            <div class="container">
+                <div class="header">
+                   <h1>welome to div concept learning</h1>
+                </div>
+                <div class="content">
+                    <p> this is the main content area</p>
+                </div>
+                <div class="footer">
+                    <p> Footer infotmation goers here</p>
+                </div>
+            </div>
+
+            <h3> elements vs tags</h3>
+                 <pre>
+                    tags are used toc reate to elements. ex: p tag;
+                    elements are objects created by tag. ex: objects;
+                 </pre>
+               
+
+
+        </form>
+    </body>
+</html>
