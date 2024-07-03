@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="description" contant="HTML Introduction">
+        <meta name="keywords"  content="HTML, elements, Tags">
+        <title> reshma learning</title>
+        <link href="/weblearning/style.css" rel="stylesheet">
+        <link rel="shortcut icon" href="/weblearning/reshma_pic.jpg">
+        <script>
+            console.log('hi');
+        </script>
+        <style>
+            h1{
+                color: firebrick;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- html learning -->
+        <h1> vaka reshma</h1>
+        <h2>vaka reshma</h2>
+        <h3>vaka reshma</h3>
+        <h4>vaka reshma</h4>
+        <h5>vaka reshma</h5>
+        <h6>h6 tag vaka reshma</h6>
+        <p>p tag reshma vaka</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos repudiandae harum quos, fugit ipsam consequuntur et obcaecati assumenda reprehenderit, animi enim. Tempora harum officiis eaque, recusandae minima voluptas vel molestias?</p>
+
+        <!-- table learning -->
+         <h2>table learning</h2>
+         <table border="1">
+            <tr>
+                <td>name</td>
+                <td>Age</td>
+                <td>country</td>
+
+            </tr>
+            <tr>
+                <td>reshma</td>
+                <td>21</td>
+                <td>india</td>
+
+            </tr>
+            <tr>
+                <td>niru</td>
+                <td>20</td>
+                <td>india</td>
+            </tr>
+            <tr>
+                <td colspan="2">padma</td>
+                <td>india</td>
+            </tr>
+         </table>
+      <!-- list -->
+       <h2> list learning</h2>
+       <p>types</p>
+       <h5>ordered list</h5>
+       <h5>unordered list</h5>
+       <h5>Description list</h5>
+
+       <h3>unordered list</h3>
+       <ul>
+        <li>reshma</li>
+        <li>praveena</li>
+        <li>vasu</li>
+        <li>sara</li>
+        <li> puju</li>
+       </ul>
+       <h3>ordered list</h3>
+       <ol>
+        <li>reshma</li>
+        <li>praveena</li>
+        <li>vasu</li>
+        <li>sara</li>
+        <li> puju</li>
+       </ol>
+
+       <h3>Description list</h3>
+       <dl>
+        <dt>html</dt>
+        <dd>hyper text markup lanuage</dd>
+       </dl>
+       <h2>break tag</h2>
+       <pr>my name is <br> reshma</pr>
+       <h2>pre tag</h2>
+       <pre>
+        this  text is 
+         will not change thing         how u write
+       </pre>
+       <!-- horizental linr -->
+       <h2>horizental line</h2>
+        <hr>
+        <!-- HTML inline and Block Elements -->
+         <h2>Inline- inside tags useing these tags- this is only take same line up to as much width it take-a,strong,span </h2>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda 
+            sit earum vitae consectetur cum amet ipsam modi eum aliquam odit ea, 
+            harum neque quisquam doloremque officiis quas totam eos ad? 
+            <span style="border: 1px solid black">span</span>
+           </p>
+
+         <h3>block line- -p,div, h1</h3>
+         <p style="border: 1px solid black">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda 
+            sit earum vitae consectetur cum amet ipsam modi eum aliquam odit ea, 
+            harum neque quisquam doloremque officiis quas totam eos ad?  </p>
+            
+
+            <!-- formating tags -->
+             <h2> formating tags</h2>
+             <b>bold text</b>
+             <i>italic text</i>
+             <u>under line</u>
+             <b> this is my <em>new learning chalange</em></b>
+             <h4>physical tags:</h4>
+             <h4>semantic tags:</h4>
+
+    </body>
+</html>
