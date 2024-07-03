@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f4f4f4;
+        }
+       .container {
+            padding: 20px;
+            background-color: antiquewhite;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+          
+        h1 {
+            text-align: center;
+        }  
+        
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        label {
+            margin: 5px 0 2px;
+        }
+        
+        input[type="text"], input[type="email"], input[type="password"], select {
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        
+        input[type="submit"] {
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #5cb85c;
+            color: white;
+            cursor: pointer;
+        }
+        
+        input[type="submit"]:hover {
+            background-color: #4cae4c;
+        }
+        
+        .gender, .interests {
+            margin-bottom: 10px;
+        }
+        
+        .gender label, .interests label {
+            margin: 0 5px;
+        } 
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Home Work</h1>
+        <form> 
+            <!-- first name -->
+            <label>First Name</label>
+            <input type="text" name="First name">
+
+            <!-- last name -->
+            <label>Last Name</label>
+            <input type="text" name="Last name">
+
+            <!-- email -->
+            <label>Email</label>
+            <input type="email" name="email">
+
+            <!-- password -->
+            <label for="password">Password</label>
+            <input type="password" name="password">
+
+            <!-- gender identification -->
+            <div class="gender">
+                <label>Gender:</label>
+                <input type="radio" name="Gender" value="male">
+                <label for="Male">Male</label>
+                <input type="radio" name="Gender" value="Female">
+                <label for="Female">Female</label>
+                <input type="radio" name="Gender" value="other">
+                <label for="other">Other</label>
+            </div>
+
+            <!-- interests -->
+            <div class="interests">
+                <label>Interests</label>
+                <input type="checkbox" name="interests" value="Sports">
+                <label>Sports</label>
+                <input type="checkbox" name="interests" value="Music">
+                <label>Music</label>
+                <input type="checkbox" name="interests" value="Reading">
+                <label>Reading</label>
+                <input type="checkbox" name="interests" value="Travelling">
+                <label>Travelling</label>
+            </div>
+
+            <!-- country -->
+            <label for="country">Country</label>
+            <select name="country">
+                <option value="" selected>Select your country</option>
+                <option value="india">India</option>
+                <option value="canada">Canada</option>
+                <option value="us">US</option>
+                <option value="london">London</option>
+                <option value="uk">UK</option>
+            </select>
+
+            <!-- submit button -->
+            <input type="submit" value="Submit">
+        </form>
+    </div>   
+</body>
+</html>
