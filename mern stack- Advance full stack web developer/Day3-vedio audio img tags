@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>vedio tags learning</h2>
+
+    <video width="640" height="360" src="/weblearning/vedio1.mp4" controls></video>
+    <h2> in contorls add according to need loop ,autoplay, muted</h2>
+    <h2>multiple source</h2>
+    <br>
+    <video width="640" height="360" controls> 
+        <source src="/weblearning/vedio2.mp4" type="video/mp4"> 
+        <source src="/weblearning/vedio2.ogg" type="video/ogg"> 
+        Your browser does not support the video tag.
+    </video>
+    <br>
+    <h2>Fallback Content</h2>
+    <br>
+    <video width="640" height="360" controls> 
+        <source src="/weblearning/vedio3.mp4" type="video/mp4"> 
+        <source src="/weblearning/vedio3.ogg" type="video/ogg"> 
+        Your browser does not support the video tag.   
+    </video>
+    <p>Download the video
+        <a href="/weblearning/vedio3.mp4">here. </a>.
+    </p>
+    <h2>Preloads types</h2>
+    <ul>
+        <li>Auto : this Download entire vedio while loseing the page</li>
+        <li>matatype : this only Download basic details about page and vedio only Download while page loading</li>
+        <li>none : it won't show any details about vedio just loaded after press botton it will work</li>
+    </ul>
+
+    <h1>Audio learning</h1>
+    <h2>Audio tags learning</h2>
+
+    <audio width="640" height="26" src="/weblearning/Audio.mp3" controls></audio>
+    <h2> in contorls add according to need loop ,autoplay, muted</h2>
+    <h2>multiple source</h2>
+    <br>
+    <audio width="640" height="26" controls> 
+        <source src="/weblearning/Audio.mp3" type="Audio/mp4"> 
+        <source src="/weblearning/Audio.mp3" type="Audio/ogg"> 
+        Your browser does not support the video tag.
+    </audio>
+    <br>
+    <h2>Fallback Content</h2>
+    <br>
+    <audio width="640" height="26" controls> 
+        <source src="/weblearning/Audio.mp3" type="Audio/mp4"> 
+        <source src="/weblearning/Audio.mp3" type="Audio/ogg"> 
+        Your browser does not support the video tag.   
+    </audio>
+    <p>Download the video
+        <a href="/weblearning/Audio.mp3">here. </a>.
+    </p>
+
+    <h1>image</h1>
+    <img src="/weblearning/image1.jpg" alt="Yoga pose" width="600" height="400">
+    <img src="/weblearning/image1-800.jpg" srcset="/weblearning/image1-400.jpg 400w, /weblearning/image1-800.jpg 800w, /weblearning/image1-1200.jpg 1200w" sizes="(max-width: 600px) 480px, 800px" alt="Beautiful landscape">
+
+</body>
+</html>
