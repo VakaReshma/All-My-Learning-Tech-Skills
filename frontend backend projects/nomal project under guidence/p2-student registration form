@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <header>
+        <h1> This is a studebt Registration From Project using simply HTML</h1>
+        <br>
+        <hr>
+        <br>
+        <h1>student registration Form</h1>
+        <h6>Please fill out the form below to register</h6>
+        
+    </header>
+    <hr>
+    <main>
+        <form action="https://example.com/sudmit" method="post">
+            <fieldset>
+                <legend>personal information</legend>
+                <label for="Firstname:">First name</label>
+                <input type="text" name="firstname" required><br>
+                <br>
+                <label for="Lastname:">Last name</label>
+                <input type="text" name="lastname" required><br>
+                <br>
+                <label for="date of Birth">Date of Birth:</label>
+                <input type="date" name="date of birth"><br>
+                <br>
+                <label for="Gender">Gender</label>
+                <input type="radio" name="Gender" value="male">
+                <lable>male</lable>
+                <input type="radio" name="Gender" value="female">
+                <lable>female</lable>
+                <input type="radio" name="Gender" value="other">
+                <lable>other</lable><br>
+                <br>
+                <label for="email">email:</label>
+                <input type="email" name="email" required><br>
+                <br>
+                <label for="phone">phone:</label>
+                <input type="phone number" name="phone" required><br>
+                <br>
+            </fieldset>
+            <hr>
+            <fieldset>
+                <legend>address information</legend>
+                <h3> address information</h3>
+                <label for="Address">Address:</label><br>
+                <textarea id="userInput" name="userInput" rows="5" cols="50"></textarea><br>
+              
+                <br>
+                <label for="City">City:</label>
+                <input type="text" name="city" required><br>
+                <br>
+                <label for="state">state:</label>
+                <input type="text" name="state" required><br>
+                <br>
+                <label for="ZIP code">ZIP CODE:</label>
+                <input type="Zip number" name="ZIP code" required><br>
+                <br>
+            </fieldset>
+            <hr>
+            <fieldset>
+                <legend>educatio information</legend>
+                <label for="High School">High School:</label>
+                <input type="High School" name="High School" required><br>
+                <br>
+                <label for="GPA">GPA:</label>
+                <input type="decimal number" name="GPA" required><br>
+                <br>
+                <label for="Intended Major">Intended Major:</label>
+                <input type="text" name="Intended Major" required><br>
+                <br>
+                <label for="Year of Graduation">year of Graduation:</label>
+                <input type="year" name="year" required><br>
+                <br>
+            </fieldset>
+            <hr>
+            <fieldset>
+                <legend>Additional information</legend>
+                <h3>Additional information</h3>
+                <label>Interests and Hobbies:</label><br>
+                <textarea id="userInput" name="userInput" rows="5" cols="50"></textarea><br>
+                <br>
+                <label>Additional Comments:</label><br>
+                <textarea id="userInput" name="userInput" rows="5" cols="50"></textarea><br>
+            </fieldset>
+
+        </form>
+    </main>
+    <hr>
+    <footer>
+        <input  type="button" value="register"></h1>
+    </footer>
+    <hr>
+    <input type="radio">
+    <label>2024 Student Registration. ALL rights reserved</label>
+</body>
+</html>
