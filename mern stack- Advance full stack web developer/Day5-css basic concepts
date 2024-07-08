@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <style>
+      *{
+         font-family: 'Courier New', Courier, monospace;
+      }
+      p{
+         background-color: aqua;
+      }
+      #this_paragraph{
+         margin-left: 40px;
+      }
+      .class_learning{
+         color:rgb(176, 61, 61);
+      }
+      p,pre{
+        
+         color: gray;
+      }
+      a[target] {
+         background-color: yellow;
+      }
+   </style>
+</head>
+<body>
+     <h1>element selsector</h1>
+     <p> today learning css</p>
+     <h1>Id selectr</h1>
+     <p id="this_paragraph"> today learning css</p>
+
+     <h1 >Class selsector</h1>
+     <p class="class_learning"> today learning css</p>
+     <p class="class_learning"> today learning css</p>
+
+     <h1>Universal Selector</h1>
+
+
+     <h1>group Selector</h1>
+     <p> today learning css</p>
+     <pre>learing was good and understand very well</pre>
+
+     <h1>Attribute Selector</h1>
+     <a href="http://www.disney.com" target="_blank">disney.com</a>
+   
+</body>
+</html>
