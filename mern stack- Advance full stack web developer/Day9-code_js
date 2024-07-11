@@ -1,0 +1,77 @@
+// obects learning
+
+let socialmedia={
+    linkedin:3445,
+    fb:1000,
+    x:15000,
+    youtube:45223,
+}
+console.log(socialmedia)
+// variable learning
+
+let minus_number=-0;
+
+console.log(minus_number)
+
+let is_aviliable=true;
+
+let str_name="hello world"
+console.log(str_name)
+
+let int_numbers=234
+
+// null and undefined learning
+
+let x;
+let y=null;
+console.log(x)
+console.log(y)
+
+// big valeus leaning
+// n must to add at last in the number
+
+let big_number=3849834958408432857359839589849038453498547588490284952389054397543893082039485438574n
+console.log(big_number)
+//arthmatic operators
+
+let a=323
+let b=253
+
+console.log(a+b)
+console.log(a-b)
+console.log(a*b)
+console.log(a%b)
+console.log(a/b)
+
+//assignment opperatos
+a=+b;
+console.log(a)
+a=-b;
+console.log(a)
+a*=b;
+console.log(a)
+a%=b
+console.log(a)
+a/=b
+console.log(a)
+
+
+
+//logical oprators
+//and
+console.log(false && false)
+console.log(false && true)
+console.log(true && false)
+console.log(true && true)
+
+//or
+console.log(false || false)
+console.log(false || true)
+console.log(true || false)
+console.log(true || true)
+//not
+console.log(true!=false)
+
+
+
+
