@@ -1,0 +1,74 @@
+/bitwise operators
+
+//bitwise and
+let a=5
+let b=6
+console.log(a & b); 
+//or operator
+console.log(a | 4);
+//not operator
+console.log(~a)
+//xor operator
+console.log(a ^ b);
+//left shift
+console.log(a<<b)
+console.log(1<<3)
+//right shift
+console.log(24>>2)
+
+//loops
+//while loop
+let i=1;
+
+while(i<=10){
+    console.log(i);
+    i++;
+}
+
+//for loop
+for(let j=11;j<=20;j++){
+ console.log(j)
+}
+// do-while
+k=1;
+do{
+  console.log("hi,reshma");
+  k++;
+}
+while(k<=10)
+
+//unary operator
+//postfix operator
+
+z=1;
+console.log(z++);
+console.log(z)
+//prefix operator
+
+y=1;
+console.log(++y);
+console.log(y)
+
+//break and countinue
+
+let x=1;
+while(x<=10){
+    if(i%7==0) break;
+    x++;
+}
+
+//function
+function greetingToEveryone(){
+    console.log("my logic line 1");
+}
+greetingToEveryone()
+
+//in bulited functions 
+
+console.log(Math.sqrt(100))
+
+//userd defined functions
+function sum(a,b){
+    console.log(a+b);
+}
+sum(10,15);
