@@ -1,0 +1,62 @@
+function isEvenOdd(a){
+    if(a%2==0){
+        console.log("Even");
+    }
+    else{
+        console.log("Odd");
+    }
+}
+
+isEvenOdd(45);
+//return type function
+
+function isEvenorOdd(b){
+    if(b%2==0){
+        return "Even";
+    }
+    else{
+        return "Odd";
+    }
+}
+
+const c =isEvenorOdd(52);
+console.log(c)
+//storage alloaction
+// call Storage
+// karnal Storage
+// heap stroage
+// fuctions always take the  stack methology and lifo methodology
+
+//function parameeters infinte values added
+ function fun(...values){
+    console.log(values);
+ }
+
+fun(10,20,30,40,50);
+
+//parameters 
+function  two_parameeters( d ,e){
+    console.log(d+e);  
+}
+two_parameeters(15)
+
+//date
+ 
+const f=new Date();
+console.log(f);
+console.log(f.getDate());
+console.log(f.getDay());
+console.log(f.getMonth());
+console.log(f.getFullYear());
+console.log(f.getHours());
+console.log(f.getMinutes());
+console.log(f.getSeconds());
+
+//strings decleration
+
+let s1="reshma ";
+let s2='vaka ';
+let s3=`completed B.E`;
+console.log(s1+s2+s3);
+
+
