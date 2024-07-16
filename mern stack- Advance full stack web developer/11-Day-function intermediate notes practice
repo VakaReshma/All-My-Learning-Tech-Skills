@@ -1,0 +1,40 @@
+// funtions intermediate  concepts
+const s1="hello \n world";
+const s2='hello \t world';
+const s3=`hello`;
+console.log(s1);
+console.log(s2);
+const str = 'Ram said "I am good" and gave me the code \`12345\`';
+console.log(str);
+
+console.log("sanket"+" singh");
+const firstname ="sanket";
+console.log(firstname.concat("$","singh"));
+console.log(firstname.toUpperCase());
+
+//in js functions are first class citizens
+
+//in js function can be returned from a function and be passed as an argument to another function
+function someFunction(){
+    return function x(){
+        return 10;
+    }
+}
+function anotherfunction(f1){
+    f1();
+    console.log("called f1");
+}
+
+function hello(){
+    console.log("hello");
+}
+
+anotherfunction(hello); 
+
+//arrays
+let arr1=[];
+let arr2=["reshma",true, 3.-3, null,"vaka"]
+console.log(arr1,arr2);
+ let arr4=[1,2,3,4,5,6,7]
+
+ //allowed push,pop,shift,unshift.
