@@ -1,0 +1,61 @@
+// conditiona satement
+
+//if -condition
+console.log("start")
+if(10>5){
+    console.log("yes")
+}
+console.log("end")
+
+let isprimemember=false;
+let isuservip=true;
+
+//if-else
+if(isprimemember){
+    console.log("enjoy the content")
+
+}
+//else if
+else if(isuservip){
+    console.log("enjoy the vip contant on hotstar for more subscribe to premiun")
+}
+else{
+    console.log("conenect only applicable for prime members")
+}
+
+//odd an even
+var x=34;
+if(x%2==0){
+    console.log("even");
+}
+else{
+    console.log("odd")
+}
+
+// minimum of three
+
+let a=10;
+let b=20;
+let c=5;
+
+if(a<b && a<c) console.log(a);
+else if(b<a && b<c) console.log(b);
+else console.log(c);
+
+let d = 5;
+let e = 7;
+let f =8;
+if(d+e>f && e+f>d && f+d>a){
+    console.log("Yes");
+}
+else{
+    console.log("no");
+}
+
+//scalens
+
+let g=8;
+let h=14;
+let i=8;
+
+if(g==h || h==i || i==g) console.log("Scalene Equilateral");
