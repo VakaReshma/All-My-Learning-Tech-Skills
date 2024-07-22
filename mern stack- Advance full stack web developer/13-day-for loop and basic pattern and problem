@@ -1,0 +1,161 @@
+//loop learning
+
+let d=1;
+while(d<=10){
+    console.log(d);
+    d++;
+}
+console.log("End the program");
+
+//write  the program to cal sum of all the numbers from 1-10;
+
+let a=1;
+let ans=0;
+while(a<=10){
+    ans+=a;
+    a++;
+}
+
+console.log(ans);
+
+//print the numbers from 20 to 1 in decreasing order using while loop
+
+let b=20;
+while(b!=0){
+    console.log(b);
+    b--;
+}
+
+//given a number x, write function to determine whether is a prime number or not ?
+
+function is_prime(c){
+    for( let j=2;j<c-1;j++){
+        if(c%j==0){
+            return false;
+        }
+    }
+    return true;
+}
+
+console.log(is_prime(13))
+
+//given a value n(positive integers) print the following patteren an the screen
+// ***
+// ***
+// ***
+let  e=3;
+for(let i=1;i<=e;i++){
+    let str="";
+    for(let j=1;j<=e;j++){
+        str+="*";
+    }
+    console.log(str);
+   
+}
+//given a value n,printthe following pattern an the screen
+// *
+// **
+// ***
+// ****
+// *****
+function rp(f){
+    for(let i=1;i<=f;i++){
+        let g="";
+        for(let j=1;j<=i;j++){
+             g+="*";
+        }
+       console.log(g); 
+    }
+}
+console.log(rp(5))
+
+//given a value n(positive integer), print the following paattern on the screen.
+//      *
+//     **
+//    ***
+//   ****
+//  *****
+// ******
+function lp(h){
+    for(let i=1;i<=h;i++){
+        let k="";
+        for(let l=1;l<=h-i;l++){
+            k+=" "
+        }
+        for(let j=1;j<=i;j++){
+             k+="*";
+        }
+       console.log(k); 
+    }
+}
+console.log(lp(6))
+
+//print the pattern
+//     *
+//    ***
+//   *****
+//  *******
+// *********
+
+function tp(s){
+    for(let i=1;i<=s;i++){
+        let g="";
+
+        for(let l=1;l<=s-i;l++){
+            g+=" "
+        }
+
+        for(let j=1;j<=2*i-1;j++){
+             g+="*";
+        }
+       console.log(g); 
+    }
+}
+console.log(tp(5))
+
+//print the pattern
+// *****
+// ****
+// ***
+// **
+// *
+
+function ltp(t){
+    for(let i=1;i<=t;i++){
+        let g="";
+        for(let j=1;j<=t-i+1;j++){
+             g+="*";
+        }
+       console.log(g); 
+    }
+}
+console.log(ltp(5))
+
+//gfd
+
+function gcd(a,b){
+    let m=Math.min(a,b);
+    let ans=1;
+    for(let i=2;i<=m;i++){
+        if(a%i==0 && b%i==0){
+            ans=i; 
+        }
+    }
+    console.log(ans);
+}
+console.log(gcd(24,26));
+
+//euclid algorithm
+function sum_of_digit(c){
+    let sum=0;
+    while(c>0){
+        let rem=c%10;
+        sum+=rem;
+        c=Math.floor(c/10);
+
+    }
+    console.log(sum);
+}
+console.log(sum_of_digit(1234))
+
+
