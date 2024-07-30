@@ -1,0 +1,57 @@
+//impotant object methods
+
+let product={
+    name:"iphone",
+    company:"Apple",
+    price:"12500",
+    warrenty:"1year",
+    colour:"black"
+}
+// feach keys from object keys
+console.log(Object.keys(product));
+
+// feach keys from object values
+console.log(Object.values(product));
+
+//all key value pairs in object
+console.log(Object.entries(product));
+console.log(Object.keys(product).length);
+
+//mutability in immutability
+
+let x=100; //mutable
+const z=100;  //immutable
+ x=99;
+ console.log(x);
+ console.log(z);
+
+ //object 
+
+ // Object.freeze this mathod canot add any element in it
+
+ //seal not addind and removeing allow but updates okk.
+ Object.seal(product);
+ product.added_verstion="sf.uih.";
+ console.log(product);
+ delete product.name;
+ console.log(product);
+
+ //frezz
+//   this is highest level immutability it creates forzon Object.apply
+
+// can't added any thing object, removeing updated;
+
+//
+
+console.log(Object.isSealed(product));
+console.log(Object.isFrozen(product));
+
+ Object.preventExtensions() //half the seal properties
+Object.defineProperties() //
+
+
+
+
+ 
+
+
