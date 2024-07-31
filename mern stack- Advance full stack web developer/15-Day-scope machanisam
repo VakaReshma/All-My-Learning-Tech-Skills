@@ -1,0 +1,26 @@
+//globel scope
+
+let a=20;
+
+//funtion scope 
+
+function ret(m){
+    let x=10;   //block scope
+    return m+x;
+}
+console.log(ret(7));
+
+//var declaration
+
+var teacher= "sanketh";
+function fun(){
+    var teacher="reshma";
+    console.log("hello", teacher);
+}
+function gun(){
+    var student="Aman";
+    console.log(student);
+}
+
+fun();
+gun();
